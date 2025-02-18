@@ -172,4 +172,4 @@ with gr.Blocks() as app:
         outputs=[bgm_spec],
     )
 
-    app.launch(show_error=True)
+    app.launch(show_error=True, share=True)
